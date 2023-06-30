@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(../images/bg1.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.start-forms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    gap: 30px;
+    border-radius: 20px;
+    background-color: #1f4f42;
+    color: white;
+}
+
+.start__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start__input {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 400px;
+}
+
+.start__button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+}
+
+.start__button:disabled {
+    cursor: auto;
+    background-color: #818181;
+    color: antiquewhite;
+} 
